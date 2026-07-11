@@ -1,0 +1,21 @@
+{
+  "name": "bloxd-useful-codes-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Bloxd Useful Codes",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "firebase-admin": "^11.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
